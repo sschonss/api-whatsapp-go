@@ -13,7 +13,7 @@ func main() {
 	for _, message := range msg {
 		fmt.Println(messages.FormatMessage(message))
 		fmt.Println("------------------------")
-		whats.SendWhatsapp("+554299146456", messages.FormatMessage(message))
+		whats.SendWhatsapp("NUMBER_PHONE", messages.FormatMessage(message))
 		
 	}
 
